@@ -34,6 +34,13 @@ class MyProfileFragment : BaseFragment() {
 
     override fun setupEvents() {
 
+        binding.txtMyProductPurnchaseList.setOnClickListener {
+
+            val myIntent = Intent(mContext, MyProductPurchaseListActivity::class.java)
+
+            startActivity(myIntent)
+        }
+
         binding.btnSaveMoney.setOnClickListener {
 
             val myIntent =  Intent( mContext, SaveMonyMyActivity::class.java )
