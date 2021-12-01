@@ -3,15 +3,15 @@ package com.neppplus.gudocin_android
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.neppplus.gudocin_android.databinding.ActivityReviewDetailBinding
+import com.neppplus.gudocin_android.databinding.ActivityPurcheaseListBinding
 
-class ReviewDetailActivity : BaseActivity() {
+class PurcheaseListActivity : BaseActivity() {
 
-    lateinit var binding: ActivityReviewDetailBinding
+    lateinit var binding: ActivityPurcheaseListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_review_detail)
+        setContentView(R.layout.activity_purchease_list)
         setupEvents()
         setValues()
     }
@@ -21,7 +21,6 @@ class ReviewDetailActivity : BaseActivity() {
     }
 
     override fun setValues() {
-        apiService
 
     }
 }

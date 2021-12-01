@@ -58,7 +58,7 @@ class MyProfileFragment : BaseFragment() {
         }
         binding.txtMyProductPurnchaseList.setOnClickListener {
 
-            val myIntent = Intent(mContext, MyProductPurchaseListActivity::class.java)
+            val myIntent = Intent(mContext, PurcheaseListActivity::class.java)
 
             startActivity(myIntent)
         }
