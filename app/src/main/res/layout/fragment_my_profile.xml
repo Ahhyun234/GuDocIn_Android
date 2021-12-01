@@ -82,20 +82,24 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="center">
 
 
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="80dp"
-                    android:layout_marginTop="20dp"
-                    android:src="@drawable/mygudoclist" />
+                <Button
+                    android:id="@+id/btnMyPurchase"
+                    android:layout_marginEnd="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="내 구매내역"/>
 
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="80dp"
-                    android:layout_marginTop="20dp"
-                    android:src="@drawable/review" />
+
+                <Button
+                    android:id="@+id/btnMyReiveList"
+                    android:layout_marginEnd="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="내 리뷰내역"/>
 
 
             </LinearLayout>
@@ -116,6 +120,18 @@
 
             <TextView
 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#808080" />
+            <TextView
+                android:id="@+id/txtLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="로그아웃"
+                android:textSize="15sp" />
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#808080" />
@@ -218,6 +234,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#808080" />
+
+
 
 
         </LinearLayout>

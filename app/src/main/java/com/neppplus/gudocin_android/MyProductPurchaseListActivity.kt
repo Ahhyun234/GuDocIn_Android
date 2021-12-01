@@ -7,11 +7,11 @@ import com.neppplus.gudocin_android.databinding.ActivityMyProductPurchaseListBin
 
 class MyProductPurchaseListActivity : BaseActivity() {
 
-    lateinit var binding : ActivityMyProductPurchaseListBinding
+    lateinit var binding :
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-       binding = DataBindingUtil.setContentView(this,R.layout.activity_my_product_purchase_list)
+       binding = DataBindingUtil.setContentView(this,R.layout.)
     }
 
     override fun setupEvents() {
