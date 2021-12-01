@@ -76,9 +76,10 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        
+        android:background="@drawable/radius_box"
         android:outlineSpotShadowColor="@color/black"
-        android:padding="10dp">
+        android:padding="5dp"
+        android:layout_margin="10dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imgReview"
